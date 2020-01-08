@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background: #e3e3e3">
+    <div class="container">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6" style="margin-top: 50px">
+            <div class="title-login" >
+                <h3 style="font-weight: bold;">Đăng nhập</h3>
+            </div>
+            <div class="message" id="message_id"> </div>
+            <form method="post" id="login" accept-charset="utf-8">
+                <div class="col-sm-10">
+                    <div class="list-item-login oneField">
+                        <span>Số điện thoại hoặc email <label  style="color: red;">*</label></span>
+                        <input class="required form-control" type="text" name="username">
+                    </div>
+                    <div class="list-item-login oneField">
+                        <span>Mật khẩu <label style="color: red;">*</label></span>
+                        <input class="required form-control" type="password" name="password" >
+                    </div>
+                    <div class="submit-item-login">
+                        <input type="submit" class="btn btn-success" value="ĐĂNG NHẬP">
+                        <span><a href="#">Quên mật khẩu</a></span>
+                    </div>
+                </div>
+            </form>
+            <hr width="80%" align="center" style="margin-left: 70px;" />
+
+            <div class="col-sm-10 register">
+                <span>Hoặc đăng nhập bằng facebook</span>
+                <a href="/loginFB.php" class="sub-link-loginfb">
+                    <div class="login-fb">
+                        <span><i class="fa fa-facebook-square "> </i>FACEBOOK</span>
+                    </div>
+                </a>
+                <span>Chưa có tài khoản?</span> <a href="https://www.jupviec.vn/dang-ky-thanh-vien.html"><u>Đăng ký ngay</u></a>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

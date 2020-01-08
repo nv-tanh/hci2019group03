@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+.col-sm-4 {
+	padding: 70px 0;
+	margin-left: -50px;
+	background-color: white;
+}
+
+.title-login {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.submit-item-login span a {
+	margin-left: 160px;
+}
+
+.col-sm-10 {
+	margin-left: 45px;
+}
+
+.col-sm-10 input {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.register>span {
+	margin-left: 110px;
+}
+
+.submit-item-login {
+	margin-bottom: 15px;
+}
+
+.submit-item-login input {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	border: none;
+}
+
+.login-fb {
+	background: #28a4c9;
+	padding: 10px 0;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.login-fb:hover {
+	background: silver;
+}
+
+input.btn-success:hover {
+	background: silver;
+}
+
+.abc {
+	background-color: white;
+	height: 583px;
+	margin: 50px 0px 50px -15px;
+	padding: 160px 20px 0 10px; 
+}
